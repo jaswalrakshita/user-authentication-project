@@ -1,0 +1,30 @@
+# Ignore node_modules for both frontend and backend
+**/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# dotenv environment variables
+*.env
+
+# Build folders
+auth-frontend/build/
+auth-frontend/dist/
+auth-backend/build/
+auth-backend/dist/
+
+# IDE-related folders
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+
+# Misc
+*.tgz
+*.zip
